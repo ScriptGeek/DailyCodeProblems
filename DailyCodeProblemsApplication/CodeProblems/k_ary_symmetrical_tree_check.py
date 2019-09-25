@@ -38,12 +38,11 @@ If you liked this problem, let your friends know at dailyinterviewpro.com.
 Have a great day!
 
 Daily Interview Pro
-© 2019 Daily Interview Pro. All rights reserved.
+2019 Daily Interview Pro. All rights reserved.
 Did this email bother you? Unsubscribe anytime.
-"""
 
 # ScriptGeek's solution:
-"""
+
 My solution traverses the k-ary tree using an interative breadth-first-search 
 algorithm. Each level of nodes gets tossed into an array to be analyzed to determine 
 if the array values are symmetrical. Then if this check passes, toss each of these 
