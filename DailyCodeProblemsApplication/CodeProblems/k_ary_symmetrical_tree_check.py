@@ -43,10 +43,10 @@ Did this email bother you? Unsubscribe anytime.
 
 # ScriptGeek's solution:
 
-My solution traverses the k-ary tree using an interative breadth-first-search 
+My solution traverses the k-ary tree using an iterative breadth-first-search 
 algorithm. Each level of nodes gets tossed into an array to be analyzed to determine 
 if the array values are symmetrical. Then if this check passes, toss each of these 
-nodes children in an array then loop back and perform until all the nodes have been 
+nodes' children in an array then loop back and repeat until all the nodes have been 
 visited. If the code gets to the end without returning False then the tree is 
 symmetrical, so it returns True.
 """
