@@ -7,6 +7,7 @@ from CodeProblems import find_single_element_in_array_of_duplicates
 from CodeProblems import rotate_nxn_matrix
 from CodeProblems import compress_string
 from CodeProblems import calc_h_index
+from CodeProblems import largest_number
 
 #jump_to_the_end.runTest()
 #k_ary_symmetrical_tree_check.runTest()
@@ -16,5 +17,7 @@ from CodeProblems import calc_h_index
 #find_single_element_in_array_of_duplicates.runTest()
 #rotate_nxn_matrix.runTest()
 #compress_string.runTest()
+#calc_h_index.runTest()
 
-calc_h_index.runTest()
+largest_number.runTest()
+
