@@ -8,6 +8,7 @@ from CodeProblems import rotate_nxn_matrix
 from CodeProblems import compress_string
 from CodeProblems import calc_h_index
 from CodeProblems import largest_number
+from CodeProblems import longest_consecutive
 
 #jump_to_the_end.runTest()
 #k_ary_symmetrical_tree_check.runTest()
@@ -18,6 +19,6 @@ from CodeProblems import largest_number
 #rotate_nxn_matrix.runTest()
 #compress_string.runTest()
 #calc_h_index.runTest()
+#largest_number.runTest()
 
-largest_number.runTest()
-
+longest_consecutive.runTest()
