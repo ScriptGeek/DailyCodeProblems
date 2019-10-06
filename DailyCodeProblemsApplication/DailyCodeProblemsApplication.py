@@ -9,6 +9,7 @@ from CodeProblems import compress_string
 from CodeProblems import calc_h_index
 from CodeProblems import largest_number
 from CodeProblems import longest_consecutive
+from CodeProblems import markov_chain
 
 #jump_to_the_end.runTest()
 #k_ary_symmetrical_tree_check.runTest()
@@ -20,5 +21,6 @@ from CodeProblems import longest_consecutive
 #compress_string.runTest()
 #calc_h_index.runTest()
 #largest_number.runTest()
+#longest_consecutive.runTest()
 
-longest_consecutive.runTest()
+markov_chain.runTest()
