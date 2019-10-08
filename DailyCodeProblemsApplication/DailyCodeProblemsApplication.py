@@ -10,6 +10,7 @@ from CodeProblems import calc_h_index
 from CodeProblems import largest_number
 from CodeProblems import longest_consecutive
 from CodeProblems import markov_chain
+from CodeProblems import linked_list_rotate
 
 #jump_to_the_end.runTest()
 #k_ary_symmetrical_tree_check.runTest()
@@ -22,5 +23,6 @@ from CodeProblems import markov_chain
 #calc_h_index.runTest()
 #largest_number.runTest()
 #longest_consecutive.runTest()
+#markov_chain.runTest()
 
-markov_chain.runTest()
+linked_list_rotate.runTest()
