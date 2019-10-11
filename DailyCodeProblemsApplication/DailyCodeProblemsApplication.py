@@ -13,6 +13,7 @@ from CodeProblems import markov_chain
 from CodeProblems import linked_list_rotate
 from CodeProblems import level_order_traversal
 from CodeProblems import dice_roll_probability
+from CodeProblems import stack_interleave
 
 #jump_to_the_end.runTest()
 #k_ary_symmetrical_tree_check.runTest()
@@ -28,5 +29,6 @@ from CodeProblems import dice_roll_probability
 #markov_chain.runTest()
 #linked_list_rotate.runTest()
 #level_order_traversal.runTest()
+#dice_roll_probability.runTest()
 
-dice_roll_probability.runTest()
+stack_interleave.runTest()
