@@ -2,10 +2,10 @@
 
 This repo is for practicing code problems and learning the Python programming language.
 
-## Cheat Sheet
+## CHEAT SHEET
 
 
-### Strings and Characters
+### STRINGS AND CHARACTERS
 
 mystring = "Hello World"
 
@@ -13,42 +13,42 @@ ascii_code = ord(mystring[0])
 
 H = chr(ascii_code)
 
-### List
+### LIST
 
 mylist = ["Hello", "World"]
 
 mylist = map(func, list) # map - executes func on each item in list and returns new list
 
-### Dictionary
+### DICTIONARY
 mydict = { "Hello" : "World" } # dictionary ({:})
 
 
-### Set
+### SET
 myset = { "Hello", "World" }
 
 ***Once a set is created its items cannot be changed, but items can be added or removed***
 
 ***Unindexable - data can only be accessed like this:***
 
-**Access Items**
+**ACCESS SET ITEMS**
 
 for x in myset:
 
   print(x)
 
-**Check if in set**
+**CHECK IF IN SET**
 
 if ("Hello" in myset):
 
   print ("Hello is in the set!")
 
-**Add Items**
+**ADD ITEMS**
 
 myset.add("Wayne's World") # add one item
 
 myset.update(["Party on, Dude", "Shwing"]) # add multiple items
 
-**Remove Items**
+**REMOVE ITEMS**
 
 myset.remove("Shwing") #***if item does not exist an error will be raised***
 
@@ -56,15 +56,15 @@ myset.discard("Shwing") #***if item does not exist an error will NOT by raised**
 
 x = myset.pop() #***will remove an item, but sets are unordered so it cannot be determined which one will be removed***
 
-**Empty the set**
+**EMPTY THE SET**
 
 myset.clear()
 
-**Delete the set**
+**DELETE THE SET**
 
 del myset
 
-**Join 2 sets**
+**JOIN 2 SETS**
 
 set1 = {"a","b","c"}
 
@@ -81,7 +81,7 @@ set1.update(set2) #**inserts all the items in set2 into set1**
 myset = set(("a","b","c")) #**note the double round brackets**
 
 
-***complete set of methods:***
+***COMPLETE SET OF METHODS:***
 
 add() - Adds an element to the set
 
