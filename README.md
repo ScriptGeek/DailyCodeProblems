@@ -5,7 +5,7 @@ This repo is for practicing code problems and learning the Python programming la
 ## Cheat Sheet
 
 
-###Strings and Characters
+### Strings and Characters
 
 mystring = "Hello World"
 
@@ -13,17 +13,17 @@ ascii_code = ord(mystring[0])
 
 H = chr(ascii_code)
 
-###List
+### List
 
 mylist = ["Hello", "World"]
 
 mylist = map(func, list) # map - executes func on each item in list and returns new list
 
-###Dictionary
+### Dictionary
 mydict = { "Hello" : "World" } # dictionary ({:})
 
 
-###Set
+### Set
 myset = { "Hello", "World" }
 
 ***Once a set is created its items cannot be changed, but items can be added or removed***
@@ -118,11 +118,11 @@ union() - Return a set containing the union of sets
 update() - Update the set with the union of this set and others
 
 
-###Tuple
+### Tuple
 
 mytuple = ("Hello", "World") # tuple ((,))
 
-###Miscellaneous Functions
+### Miscellaneous Functions
 
 len: len(list), len(dictionary), len(string), len(
 
