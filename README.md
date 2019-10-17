@@ -21,6 +21,7 @@ mydict = { "Hello" : "World" } # dictionary ({:})
 ###Set
 myset = { "Hello", "World" }
 ***Once a set is created its items cannot be changed, but items can be added or removed***
+
 ***Unindexable - data can only be accessed like this:***
 **Access Items**
 for x in myset:
