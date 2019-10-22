@@ -53,7 +53,7 @@ class Solution(object):
 
         return result
 
-def runTest():
-    result = Solution().compress(['a', 'a', 'b', 'c', 'c', 'c'])
-    print (f"{result}")
-    # ['a', '2', 'b', 'c', '3']
+
+result = Solution().compress(['a', 'a', 'b', 'c', 'c', 'c'])
+print (f"{result}")
+# ['a', '2', 'b', 'c', '3']

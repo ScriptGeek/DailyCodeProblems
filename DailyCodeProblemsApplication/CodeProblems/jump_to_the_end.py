@@ -80,7 +80,7 @@ def jumpToEnd(nums):
     return minDepthToLastIndexPos
 
 # test this solution
-def runTest():
-    value = jumpToEnd([3,2,5,1,1,9,3,4])
-    print (f"minimum number of jumps: {value}")
+
+value = jumpToEnd([3,2,5,1,1,9,3,4])
+print (f"minimum number of jumps: {value}")
 

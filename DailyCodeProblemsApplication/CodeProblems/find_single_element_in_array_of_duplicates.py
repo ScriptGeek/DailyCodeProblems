@@ -33,7 +33,5 @@ class Solution(object):
             return str(key)
     return "single not found"
 
-def runTest():
-    nums = [1, 1, 3, 4, 4, 5, 6, 5, 6]
-    print(Solution().findSingle(nums))
-
+nums = [1, 1, 3, 4, 4, 5, 6, 5, 6]
+print(Solution().findSingle(nums))

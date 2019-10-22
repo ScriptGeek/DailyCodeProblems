@@ -35,6 +35,6 @@ def stack_interleave(stack):
     return stack
 
 
-def runTest():
-    print(f"[1,2,3,4,5]: {stack_interleave([1,2,3,4,5])}")
-    print(f"[1,2,3,4]: {stack_interleave([1,2,3,4])}")
+
+print(f"[1,2,3,4,5]: {stack_interleave([1,2,3,4,5])}")
+print(f"[1,2,3,4]: {stack_interleave([1,2,3,4])}")

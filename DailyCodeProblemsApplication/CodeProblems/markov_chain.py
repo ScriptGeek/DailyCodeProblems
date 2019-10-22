@@ -46,33 +46,33 @@ in this one.
 import random
 
 
-def runTest():
-    state = 'a'
-    steps = 5000
-    tp=[
-        ('a', 'a', 0.9),
-        ('a', 'b', 0.075),
-        ('a', 'c', 0.025),
-        ('b', 'a', 0.15),
-        ('b', 'b', 0.8),
-        ('b', 'c', 0.05),
-        ('c', 'a', 0.25),
-        ('c', 'b', 0.25),
-        ('c', 'c', 0.5)
-        ]
+
+state = 'a'
+steps = 5000
+tp=[
+    ('a', 'a', 0.9),
+    ('a', 'b', 0.075),
+    ('a', 'c', 0.025),
+    ('b', 'a', 0.15),
+    ('b', 'b', 0.8),
+    ('b', 'c', 0.05),
+    ('c', 'a', 0.25),
+    ('c', 'b', 0.25),
+    ('c', 'c', 0.5)
+    ]
     
-    d={}
-    for t in tp:
-        if (not t in d):
-            d.setdefault(t[0],{})
-        d[t[0]].update({t[1]:t[2]})
+d={}
+for t in tp:
+    if (not t in d):
+        d.setdefault(t[0],{})
+    d[t[0]].update({t[1]:t[2]})
 
-    step = 0
-    results = {}
-    while (step < steps):
-        r=random.choices(list(d[state].keys()), list(d[state].values()))
-        v=results.setdefault(r[0],1)
-        results.update({r[0]:v+1})
-        step += 1
+step = 0
+results = {}
+while (step < steps):
+    r=random.choices(list(d[state].keys()), list(d[state].values()))
+    v=results.setdefault(r[0],1)
+    results.update({r[0]:v+1})
+    step += 1
 
-    print(results)
+print(results)

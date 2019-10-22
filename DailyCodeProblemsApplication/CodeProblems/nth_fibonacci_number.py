@@ -33,7 +33,7 @@ Have a great day!
 
 Daily Interview Pro
 """
-#© 2019 Daily Interview Pro. All rights reserved.
+#ï¿½ 2019 Daily Interview Pro. All rights reserved.
 
 #Did this email bother you? Unsubscribe anytime.
 
@@ -53,7 +53,7 @@ class Solution():
 
     return result
 
-def runTest():
-    n = 9
-    print(Solution().fibonacci(n))
+
+n = 9
+print(Solution().fibonacci(n))
 

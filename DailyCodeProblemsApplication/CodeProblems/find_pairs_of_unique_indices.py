@@ -43,5 +43,6 @@ def isPalindrome(string):
             return False
     return True
 
-def runTest():
-    findPairs(["code", "edoc", "da", "d"])
+
+findPairs(["code", "edoc", "da", "d"])
+

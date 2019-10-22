@@ -46,24 +46,23 @@ def rotateMatrix90DegreesClockwise(mat):
     return mat
 
 
-def runTest():
 
-    # size of matrix
-    n = 4
+# size of matrix
+n = 4
 
-    # build a test matrix with n*n dimensions
-    mat = []
-    val = 1
-    for y in range(0, n):
-        mat.append([])
-        for x in range(0,n):
-            mat[y].append(val)
-            val += 1
+# build a test matrix with n*n dimensions
+mat = []
+val = 1
+for y in range(0, n):
+    mat.append([])
+    for x in range(0,n):
+        mat[y].append(val)
+        val += 1
 
-    # display matrix before rotation
-    print(f"matrix before rotation: {mat}")
+# display matrix before rotation
+print(f"matrix before rotation: {mat}")
 
-    mat = rotateMatrix90DegreesClockwise(mat)
+mat = rotateMatrix90DegreesClockwise(mat)
 
-    # display matrix after rotation        
-    print(f"matrix after rotation: {mat}")
+# display matrix after rotation        
+print(f"matrix after rotation: {mat}")

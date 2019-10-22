@@ -36,8 +36,7 @@ def longest_consecutive(nums):
 		last_num = nums[n]
 	return longest
 
-def runTest():
-	print( longest_consecutive([100, 4, 200, 1, 3, 2]) )
-	# 4
+print( longest_consecutive([100, 4, 200, 1, 3, 2]) )
+# 4
 
 

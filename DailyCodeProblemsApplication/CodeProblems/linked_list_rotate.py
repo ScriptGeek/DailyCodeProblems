@@ -86,18 +86,19 @@ class LinkedList:
                 break
 
 
-def runTest():
-    linklist = LinkedList()
-    linklist.appendLink(1)
-    linklist.appendLink(2)
-    linklist.appendLink(3)
-    linklist.appendLink(4)
-    linklist.appendLink(5)
-    
-    k = 3
 
-    print("Links in LinkedList:")
-    linklist.print()
-    linklist.shift(k)
-    print(f"shifted: {k}")
-    linklist.print()
+linklist = LinkedList()
+linklist.appendLink(1)
+linklist.appendLink(2)
+linklist.appendLink(3)
+linklist.appendLink(4)
+linklist.appendLink(5)
+    
+k = 3
+
+print("Links in LinkedList:")
+linklist.print()
+linklist.shift(k)
+print(f"shifted: {k}")
+linklist.print()
+

@@ -40,10 +40,10 @@ def smaller_to_the_right(values):
     return result
 
 # test this solution
-def runTest():
-    values = [3,4,9,6,1];
-    result = smaller_to_the_right(values);
-    print ("Input:")
-    print (str(values)[1:-1])
-    print ("Output:")
-    print (str(result)[1:-1])
+
+values = [3,4,9,6,1];
+result = smaller_to_the_right(values);
+print ("Input:")
+print (str(values)[1:-1])
+print ("Output:")
+print (str(result)[1:-1])

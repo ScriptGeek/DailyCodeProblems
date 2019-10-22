@@ -64,6 +64,5 @@ def hIndex(publications):
             h_index = pre_h_index_dict_keys[i]
     return h_index
 
-def runTest():
-    print (hIndex([5, 3, 3, 1, 0]))
+print (hIndex([5, 3, 3, 1, 0]))
 

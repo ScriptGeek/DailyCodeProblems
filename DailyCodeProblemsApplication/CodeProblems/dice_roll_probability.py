@@ -58,15 +58,15 @@ def roll(goal, sides):
         rolls += 1
 
 
-def runTest():
-    print ("runTest")
 
-    sampleSize = 100000
-    totalRolls = [0,0]
+print ("runTest")
 
-    for sample in range (0,sampleSize):
-        totalRolls[0] += roll([5,6],6)
-        totalRolls[1] += roll([5,5],6)
+sampleSize = 100000
+totalRolls = [0,0]
+
+for sample in range (0,sampleSize):
+    totalRolls[0] += roll([5,6],6)
+    totalRolls[1] += roll([5,5],6)
     
-    print (f"average rolls for 1st game (5 then 6): {totalRolls[0]/sampleSize}")
-    print (f"average rolls for 2nd game (5 then 5): {totalRolls[1]/sampleSize}")
+print (f"average rolls for 1st game (5 then 6): {totalRolls[0]/sampleSize}")
+print (f"average rolls for 2nd game (5 then 5): {totalRolls[1]/sampleSize}")

@@ -78,16 +78,16 @@ def is_symmetric(root):
 	return True 
 
 
-def runTest():
-	# 1st test
-	tree = Node(4)
-	tree.children = [Node(3), Node(3)]
-	tree.children[0].children = [Node(9), Node(4), Node(1)]
-	tree.children[1].children = [Node(1), Node(4), Node(9)]
-	print (is_symmetric(tree))
-	# True
+
+# 1st test
+tree = Node(4)
+tree.children = [Node(3), Node(3)]
+tree.children[0].children = [Node(9), Node(4), Node(1)]
+tree.children[1].children = [Node(1), Node(4), Node(9)]
+print (is_symmetric(tree))
+# True
 	
-	# 2nd test
-	tree.children[1].children = [Node(1), Node(4), Node(8)]
-	print (is_symmetric(tree))
-	# False
+# 2nd test
+tree.children[1].children = [Node(1), Node(4), Node(8)]
+print (is_symmetric(tree))
+# False
